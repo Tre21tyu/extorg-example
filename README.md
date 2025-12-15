@@ -6,20 +6,20 @@ A powerful Rust CLI tool that recursively organizes files throughout your direct
 
 `extorg` **recursively scans** all subdirectories for files and moves them into a centralized `assets/` directory, organized by file type:
 
-- **animation/** - `.webm`, `.gif`
-- **canvae/** - `.canvas`
-- **datasets/** - `.csv`
-- **documents/** - `.pdf`, `.docx`, `.odt`
-- **emacs_org_files/** - `.org`
-- **html_pages/** - `.html`
-- **images/** - `.svg`, `.png`, `.jpg`, `.jpeg`, `.psd`
-- **json/** - `.json`
-- **markdown_files/** - `.md`
-- **obsidian_canvae/** - `.canvas`
-- **plaintext_files/** - `.txt`
-- **sounds/** - `.mp3`, `.m4a`, `.wav`
-- **video/** - `.mp4`, `.mkv`
-- **xcalidrawings/** - `.excalidraw`
+- **animation_󰤺/** - `.webm`, `.gif`
+- **canvae_󰃣/** - `.canvas`
+- **datasets_/** - `.csv`
+- **documents_󱔗/** - `.pdf`, `.docx`, `.odt`
+- **emacs_org_files_/** - `.org`
+- **html_pages_/** - `.html`
+- **images_/** - `.svg`, `.png`, `.jpg`, `.jpeg`, `.psd`
+- **json_/** - `.json`
+- **markdown_files_/** - `.md`
+- **obsidian_canvae_󰃣/** - `.canvas`
+- **plaintext_files_/** - `.txt`
+- **sounds_/** - `.mp3`, `.m4a`, `.wav`
+- **video_󰨜/** - `.mp4`, `.mkv`
+- **xcalidrawings_󰽉/** - `.excalidraw`
 
 ## Installation
 
@@ -75,39 +75,39 @@ Working directory: /Users/you/Downloads
 
 Step 1: Creating directory structure...
 Created directory: assets/
-  Created subdirectory: assets/animation/
-  Created subdirectory: assets/images/
-  Created subdirectory: assets/documents/
+  Created subdirectory: assets/animation_󰤺/
+  Created subdirectory: assets/images_/
+  Created subdirectory: assets/documents_󱔗/
   ...
 
 Step 2: Searching for existing assets directories...
 Found 1 additional assets directory to merge:
 Merging: /Users/you/Downloads/project1/assets
-  Merged: /Users/you/Downloads/project1/assets/images/logo.png -> assets/images/logo.png
+  Merged: /Users/you/Downloads/project1/assets/images_/logo.png -> assets/images_/logo.png
   Removed empty directory: /Users/you/Downloads/project1/assets
 Merged 1 file(s) from other assets directories.
 
 Step 3: Scanning all subdirectories for files to organize...
 Found 8 file(s) to organize:
 
-  photo.jpg -> assets/images/
-  report.pdf -> assets/documents/
-  data.csv -> assets/datasets/
-  notes.md -> assets/markdown_files/
-  song.mp3 -> assets/sounds/
-  project1/screenshot.png -> assets/images/
-  project2/data/info.json -> assets/json/
-  docs/guide.pdf -> assets/documents/
+  photo.jpg -> assets/images_/
+  report.pdf -> assets/documents_󱔗/
+  data.csv -> assets/datasets_/
+  notes.md -> assets/markdown_files_/
+  song.mp3 -> assets/sounds_/
+  project1/screenshot.png -> assets/images_/
+  project2/data/info.json -> assets/json_/
+  docs/guide.pdf -> assets/documents_󱔗/
 
 Step 4: Moving files...
-Moved: photo.jpg -> assets/images/photo.jpg
-Moved: report.pdf -> assets/documents/report.pdf
-Moved: data.csv -> assets/datasets/data.csv
-Moved: notes.md -> assets/markdown_files/notes.md
-Moved: song.mp3 -> assets/sounds/song.mp3
-Moved: project1/screenshot.png -> assets/images/screenshot.png
-Moved: project2/data/info.json -> assets/json/info.json
-Moved: docs/guide.pdf -> assets/documents/guide.pdf
+Moved: photo.jpg -> assets/images_/photo.jpg
+Moved: report.pdf -> assets/documents_󱔗/report.pdf
+Moved: data.csv -> assets/datasets_/data.csv
+Moved: notes.md -> assets/markdown_files_/notes.md
+Moved: song.mp3 -> assets/sounds_/song.mp3
+Moved: project1/screenshot.png -> assets/images_/screenshot.png
+Moved: project2/data/info.json -> assets/json_/info.json
+Moved: docs/guide.pdf -> assets/documents_󱔗/guide.pdf
 
 === Summary ===
 Successfully moved: 8 file(s)

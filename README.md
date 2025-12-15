@@ -40,7 +40,7 @@ cargo build --release
 
 ```bash
 # Install directly from the repository
-cargo install --git https://github.com/YOUR_USERNAME/extorg-example.git
+cargo install --git https://github.com/Tre21tyu/extorg-example.git
 
 # Or if you've cloned it locally
 cargo install --path .
